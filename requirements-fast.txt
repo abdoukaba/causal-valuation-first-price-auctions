@@ -1,0 +1,3 @@
+# Optional accelerators (see README, "Optional acceleration"). The code runs without them.
+numba>=0.60
+jax>=0.4.30

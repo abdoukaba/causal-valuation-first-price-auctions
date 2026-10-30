@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# raw datasets are not redistributed
+*.npz
+*.npy
+bid.txt
+imp.txt
+clk.txt
+conv.txt
+slim.tsv
+*.csv.gz

@@ -1,0 +1,6 @@
+numba  Table1 long    max |diff| = 2.8e-16   one Phi_h: numpy 111 ms, numba 12.7 ms
+numba  Table1 short   max |diff| = 1.7e-16   one Phi_h: numpy 77 ms, numba 12.4 ms
+numba  calibrated+KL  max |diff| = 2.2e-16   one Phi_h: numpy 83 ms, numba 17.5 ms
+numba  Picard solve: same step count (34), max |diff q| = 1.7e-16
+JAX    eps=0.05: |Phi_jax-Phi_np| = 3.3e-16; Jacobian rel. diff vs FD = 7.5e-08; spectral radius 0.009154 (FD 0.009154); time 0.14 s vs FD 2.0 s
+JAX    eps=0.01: |Phi_jax-Phi_np| = 4.4e-16; Jacobian rel. diff vs FD = 8.9e-08; spectral radius 0.003298 (FD 0.003298); time 0.11 s vs FD 2.0 s

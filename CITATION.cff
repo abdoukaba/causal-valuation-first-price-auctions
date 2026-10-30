@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Code for: Causal Valuation and Equilibrium Uniqueness in Adaptive First-Price Auctions: A Mean-Field Analysis"
+authors:
+  - family-names: Kaba
+    given-names: Abdou
+    affiliation: "Department of Economics, University of San Francisco"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Causal Valuation and Equilibrium Uniqueness in Adaptive First-Price Auctions: A Mean-Field Analysis"
+  authors:
+    - family-names: Kaba
+      given-names: Abdou
+  year: 2026
+  status: preprint

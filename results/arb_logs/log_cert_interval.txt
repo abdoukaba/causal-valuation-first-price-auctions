@@ -1,0 +1,13 @@
+v1_analytic_eta0.5_eps0.5 {'kappa': '[0.7713328521 +/- 4.41e-11]', 'certified': True, 'wmin': '[0.3658644090 +/- 1.09e-11]'}
+v1_analytic_eta0.1_eps0.1 {'kappa': '[0.7476111336 +/- 2.36e-11]', 'certified': True, 'wmin': '[0.3658644090 +/- 1.09e-11]'}
+orig_eta0.45 kappa [0.9172297991 +/- 3.41e-11] certified True
+orig_eta0.48 kappa [0.9853716185 +/- 4.48e-12] certified True
+orig_eta0.47 kappa [0.9623830915 +/- 4.50e-11] certified True
+orig_eta0.485 kappa [0.9959032443 +/- 1.81e-11] certified True
+orig_eta0.487 kappa [1.000427812 +/- 8.36e-11] certified False
+orig_eta0.40 kappa [0.8064182971 +/- 3.17e-11] certified True
+orig_eta0.30 kappa [0.5910810248 +/- 4.39e-11] certified True
+orig_eta0.50 kappa [1.029932638 +/- 4.74e-10] certified False
+short_spec kappa [0.004578293577 +/- 4.60e-13] certified True
+orig_eta0.5_eps0.07 kappa [0.8691698352 +/- 2.68e-11] certified True
+orig_eta0.45_eps0.04 kappa [1.050911828 +/- 9.63e-11] certified False

@@ -1,0 +1,66 @@
+{
+ "top=450": {
+  "zeta=0.011,eta=0.3": {
+   "kappa_upper": Infinity,
+   "theta": "4",
+   "verified": false
+  },
+  "zeta=0.011,eta=0.45": {
+   "kappa_upper": Infinity,
+   "theta": "4",
+   "verified": false
+  },
+  "zeta=0.1,eta=0.3": {
+   "kappa_upper": 2.204986339194775,
+   "theta": "16",
+   "verified": false
+  },
+  "zeta=0.1,eta=0.45": {
+   "kappa_upper": 3.5278047450056937,
+   "theta": "16",
+   "verified": false
+  },
+  "zeta=0.2,eta=0.3": {
+   "kappa_upper": 0.8814093201463302,
+   "theta": "16",
+   "verified": true
+  },
+  "zeta=0.2,eta=0.45": {
+   "kappa_upper": 1.364004494573927,
+   "theta": "16",
+   "verified": false
+  }
+ },
+ "top=600": {
+  "zeta=0.0109,eta=0.3": {
+   "kappa_upper": Infinity,
+   "theta": "4",
+   "verified": false
+  },
+  "zeta=0.0109,eta=0.45": {
+   "kappa_upper": Infinity,
+   "theta": "4",
+   "verified": false
+  },
+  "zeta=0.1,eta=0.3": {
+   "kappa_upper": 2.919461916312192,
+   "theta": "16",
+   "verified": false
+  },
+  "zeta=0.1,eta=0.45": {
+   "kappa_upper": 4.673303071746959,
+   "theta": "16",
+   "verified": false
+  },
+  "zeta=0.2,eta=0.3": {
+   "kappa_upper": 1.166757728685871,
+   "theta": "16",
+   "verified": false
+  },
+  "zeta=0.2,eta=0.45": {
+   "kappa_upper": 1.806092554372205,
+   "theta": "16",
+   "verified": false
+  }
+ }
+}

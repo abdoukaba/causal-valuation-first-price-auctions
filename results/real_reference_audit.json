@@ -1,0 +1,150 @@
+{
+  "provenance": "Derived from supplied real-record resampling summaries; raw observations not refitted.",
+  "interval_scope": "95% Wilson intervals describe Monte Carlo draw frequencies conditional on the supplied datasets and fixed fitted nuisance functions; not population generalization intervals.",
+  "rows": [
+    {
+      "fraction": 0.0003,
+      "n_criteo": 4193,
+      "n_ipinyou": 618,
+      "attempts": 100,
+      "estimable": 12,
+      "failures": 88,
+      "counts": {
+        "0": 1,
+        "1": 10,
+        "2": 1
+      },
+      "p_h_conditional": 0.8333333333333334,
+      "p_h_all_attempts": 0.1,
+      "conditional_wilson95": [
+        0.5519691377470266,
+        0.9530348578161463
+      ],
+      "all_attempts_wilson95": [
+        0.0552291370606751,
+        0.17436566150491345
+      ],
+      "conditional_model_ratio": 0.7819266254260041
+    },
+    {
+      "fraction": 0.001,
+      "n_criteo": 13979,
+      "n_ipinyou": 2060,
+      "attempts": 100,
+      "estimable": 34,
+      "failures": 66,
+      "counts": {
+        "0": 6,
+        "1": 28,
+        "2": 0
+      },
+      "p_h_conditional": 0.8235294117647058,
+      "p_h_all_attempts": 0.28,
+      "conditional_wilson95": [
+        0.6648626260015724,
+        0.9165103095462768
+      ],
+      "all_attempts_wilson95": [
+        0.20139685211186212,
+        0.3748802870992116
+      ],
+      "conditional_model_ratio": 0.7676634352849158
+    },
+    {
+      "fraction": 0.003,
+      "n_criteo": 41938,
+      "n_ipinyou": 6182,
+      "attempts": 100,
+      "estimable": 82,
+      "failures": 18,
+      "counts": {
+        "0": 12,
+        "1": 67,
+        "2": 3
+      },
+      "p_h_conditional": 0.8170731707317073,
+      "p_h_all_attempts": 0.67,
+      "conditional_wilson95": [
+        0.7198781157085605,
+        0.8858897814635709
+      ],
+      "all_attempts_wilson95": [
+        0.5730534379509052,
+        0.7543687726587197
+      ],
+      "conditional_model_ratio": 0.7638689285022513
+    },
+    {
+      "fraction": 0.01,
+      "n_criteo": 139795,
+      "n_ipinyou": 20608,
+      "attempts": 100,
+      "estimable": 99,
+      "failures": 1,
+      "counts": {
+        "0": 10,
+        "1": 89,
+        "2": 0
+      },
+      "p_h_conditional": 0.898989898989899,
+      "p_h_all_attempts": 0.89,
+      "conditional_wilson95": [
+        0.8239693643888216,
+        0.9442033249711951
+      ],
+      "all_attempts_wilson95": [
+        0.8136870349691969,
+        0.9374580364293543
+      ],
+      "conditional_model_ratio": 0.8381868689278279
+    },
+    {
+      "fraction": 0.03,
+      "n_criteo": 419387,
+      "n_ipinyou": 61824,
+      "attempts": 100,
+      "estimable": 100,
+      "failures": 0,
+      "counts": {
+        "0": 0,
+        "1": 100,
+        "2": 0
+      },
+      "p_h_conditional": 1.0,
+      "p_h_all_attempts": 1.0,
+      "conditional_wilson95": [
+        0.9630065017930143,
+        1.0
+      ],
+      "all_attempts_wilson95": [
+        0.9630065017930143,
+        1.0
+      ],
+      "conditional_model_ratio": 0.9325883155364499
+    },
+    {
+      "fraction": 0.1,
+      "n_criteo": 1397959,
+      "n_ipinyou": 206081,
+      "attempts": 100,
+      "estimable": 100,
+      "failures": 0,
+      "counts": {
+        "0": 0,
+        "1": 100,
+        "2": 0
+      },
+      "p_h_conditional": 1.0,
+      "p_h_all_attempts": 1.0,
+      "conditional_wilson95": [
+        0.9630065017930143,
+        1.0
+      ],
+      "all_attempts_wilson95": [
+        0.9630065017930143,
+        1.0
+      ],
+      "conditional_model_ratio": 0.9325883155364499
+    }
+  ]
+}

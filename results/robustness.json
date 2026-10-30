@@ -1,0 +1,156 @@
+[
+ {
+  "case": "baseline",
+  "eta": 0.45,
+  "zeta": 0.2,
+  "q0": [
+   0.2,
+   0.4,
+   0.4
+  ],
+  "reserve": 0,
+  "residual": 9.815867563212066e-11,
+  "steps": 34,
+  "multistart_spread": 1.3682055488573042e-10,
+  "mon": 0.007753450923690871,
+  "br": 0.031719650937921215,
+  "br_ratio": 4.091036526845227,
+  "cert_kappa": "[0.917641 +/- 2.20e-7]",
+  "cert_certified": true
+ },
+ {
+  "case": "baseline",
+  "eta": 0.5,
+  "zeta": 0.2,
+  "q0": [
+   0.2,
+   0.4,
+   0.4
+  ],
+  "reserve": 0,
+  "residual": 9.961598212981926e-11,
+  "steps": 35,
+  "multistart_spread": 1.2593068254851403e-10,
+  "mon": 0.007764156842157325,
+  "br": 0.031757725620318755,
+  "br_ratio": 4.090299341698338,
+  "cert_kappa": "[1.03029 +/- 2.36e-6]",
+  "cert_certified": false
+ },
+ {
+  "case": "zeta=0.1",
+  "eta": 0.45,
+  "zeta": 0.1,
+  "q0": [
+   0.2,
+   0.4,
+   0.4
+  ],
+  "reserve": 0,
+  "residual": 9.910844367411187e-11,
+  "steps": 35,
+  "multistart_spread": 9.381406762543065e-11,
+  "mon": 0.007029671875538443,
+  "br": 0.030980672250125515,
+  "br_ratio": 4.40712920868053,
+  "cert_kappa": "[2.39576 +/- 3.01e-6]",
+  "cert_certified": false
+ },
+ {
+  "case": "zeta=0.05",
+  "eta": 0.45,
+  "zeta": 0.05,
+  "q0": [
+   0.2,
+   0.4,
+   0.4
+  ],
+  "reserve": 0,
+  "residual": 8.23257850779413e-11,
+  "steps": 35,
+  "multistart_spread": 1.1365422492026767e-10,
+  "mon": 0.005952897163075244,
+  "br": 0.029792219978635466,
+  "br_ratio": 5.004658935388852,
+  "cert_kappa": "[10.3729 +/- 1.82e-5]",
+  "cert_certified": false
+ },
+ {
+  "case": "zeta=0.02 (near hard rule)",
+  "eta": 0.45,
+  "zeta": 0.02,
+  "q0": [
+   0.2,
+   0.4,
+   0.4
+  ],
+  "reserve": 0,
+  "residual": 9.939152278981567e-11,
+  "steps": 36,
+  "multistart_spread": 1.2455403375355445e-10,
+  "mon": 0.004598851095764785,
+  "br": 0.028087453200519807,
+  "br_ratio": 6.107493505581504,
+  "cert_kappa": null,
+  "cert_certified": false,
+  "cert_note": "positivity hypothesis fails: w(1-w)>=1/8 not proven"
+ },
+ {
+  "case": "q0 low-bid",
+  "eta": 0.45,
+  "zeta": 0.2,
+  "q0": [
+   0.6,
+   0.3,
+   0.1
+  ],
+  "reserve": 0,
+  "residual": 9.86405401803836e-11,
+  "steps": 34,
+  "multistart_spread": 1.362996659981519e-10,
+  "mon": 0.008003948866301848,
+  "br": 0.03259277896526617,
+  "br_ratio": 4.07208735459168,
+  "cert_kappa": "[0.917834 +/- 7.67e-8]",
+  "cert_certified": true
+ },
+ {
+  "case": "q0 high-bid",
+  "eta": 0.45,
+  "zeta": 0.2,
+  "q0": [
+   0.1,
+   0.3,
+   0.6
+  ],
+  "reserve": 0,
+  "residual": 9.794248745365053e-11,
+  "steps": 34,
+  "multistart_spread": 1.3703654877517124e-10,
+  "mon": 0.007642632285949622,
+  "br": 0.03132821156714864,
+  "br_ratio": 4.099138934728431,
+  "cert_kappa": "[0.917701 +/- 4.00e-8]",
+  "cert_certified": true
+ },
+ {
+  "case": "reserve 0.075",
+  "eta": 0.45,
+  "zeta": 0.2,
+  "q0": [
+   0.2,
+   0.4,
+   0.4
+  ],
+  "reserve": 0.075,
+  "residual": 9.080236562652999e-11,
+  "steps": 34,
+  "multistart_spread": 1.322054687946661e-10,
+  "mon": -0.006990414957373474,
+  "br": 0.0,
+  "br_ratio": null,
+  "cert_kappa": null,
+  "cert_certified": false,
+  "cert_note": "reserve violates positivity (w=0 for a<reserve)"
+ }
+]
